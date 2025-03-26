@@ -88,8 +88,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
         print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name:MADESWARAN M")
-    print("Register Number:212223040106")
+    print("Name:HARISHA S")
+    print("Register Number:212223040063")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -110,17 +110,20 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 </br>
 </br>
 
-![Screenshot 2025-03-24 154114](https://github.com/user-attachments/assets/532ef4e2-b816-4ffd-b8cb-c9efd2c71297)
+![Screenshot 2025-03-26 140047](https://github.com/user-attachments/assets/bcd822f5-8127-4462-8222-29d25c93c8c6)
+
 
 
 ###  Validation Loss Vs Iteration Plot
-![Screenshot 2025-03-24 154138](https://github.com/user-attachments/assets/0287a5af-642b-427a-9ffb-4b12aa6a49a8)
+
+![Screenshot 2025-03-26 140126](https://github.com/user-attachments/assets/d16f65e0-455f-4ca3-9f5e-378788be57a6)
 
 
 
 ### Confusion Matrix
-![Screenshot 2025-03-24 154239](https://github.com/user-attachments/assets/8a8c5139-725f-4a30-b462-947b00ade1b3)
 
+
+![Screenshot 2025-03-26 140149](https://github.com/user-attachments/assets/50c9ed3d-b1e6-4043-bdb7-d3f3f6074f52)
 
 </br>
 </br>
@@ -128,7 +131,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ### Classification Report
 
-![Screenshot 2025-03-24 154258](https://github.com/user-attachments/assets/12292ae9-1f29-4b00-9518-beb957a2974f)
+![Screenshot 2025-03-26 140206](https://github.com/user-attachments/assets/3bb94fcd-5144-4c26-bdc0-0f8dcc409259)
+
 </br>
 </br>
 </br>
