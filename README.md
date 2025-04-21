@@ -111,6 +111,7 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 </br>
 </br>
 </br>
+
 ![image](https://github.com/user-attachments/assets/c991eedc-f574-4c3f-b3c0-0afe8eb9e70d)
 
 
