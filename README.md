@@ -59,7 +59,8 @@ optimizer = optim.Adam(model.classifier[-1].parameters(), lr=0.001)
 
 
 # Train the model
-```python
+```
+## Step 3: Train the Model
 def train_model(model, train_loader,test_loader,num_epochs=10):
     train_losses = []
     val_losses = []
@@ -105,29 +106,23 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ```
 
-
-
-
 ## OUTPUT
 ### Training Loss
 </br>
 </br>
 </br>
-
-![Screenshot 2025-03-26 140047](https://github.com/user-attachments/assets/bcd822f5-8127-4462-8222-29d25c93c8c6)
-
+![image](https://github.com/user-attachments/assets/c991eedc-f574-4c3f-b3c0-0afe8eb9e70d)
 
 
 ###  Validation Loss Vs Iteration Plot
 
-![Screenshot 2025-03-26 140126](https://github.com/user-attachments/assets/d16f65e0-455f-4ca3-9f5e-378788be57a6)
+![image](https://github.com/user-attachments/assets/529ae2c7-4c81-4d47-b6db-970e7bdad4ff)
 
 
 
 ### Confusion Matrix
 
-
-![Screenshot 2025-03-26 140149](https://github.com/user-attachments/assets/50c9ed3d-b1e6-4043-bdb7-d3f3f6074f52)
+![image](https://github.com/user-attachments/assets/8802e510-f58c-40a1-9dd1-dada2a09f9dc)
 
 </br>
 </br>
@@ -135,7 +130,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ### Classification Report
 
-![Screenshot 2025-03-26 140206](https://github.com/user-attachments/assets/3bb94fcd-5144-4c26-bdc0-0f8dcc409259)
+![image](https://github.com/user-attachments/assets/c8c3d181-0eb4-4f83-80c3-1d145b77904d)
+
 
 </br>
 </br>
